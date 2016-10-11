@@ -56,6 +56,9 @@ typedef enum{
 - (void)egoRefreshScrollViewDidEndDragging:(UIScrollView *)scrollView;
 - (void)egoRefreshScrollViewDataSourceDidFinishedLoading:(UIScrollView *)scrollView;
 
+//扩展:下拉显示加载
+- (void)initLoading:(UIScrollView *)scrollView;
+
 @end
 @protocol EGORefreshTableHeaderDelegate
 - (void)egoRefreshTableHeaderDidTriggerRefresh:(EGORefreshTableHeaderView*)view;
