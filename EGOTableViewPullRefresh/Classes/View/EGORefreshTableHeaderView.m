@@ -262,7 +262,6 @@
 	_statusLabel = nil;
 	_arrowImage = nil;
 	_lastUpdatedLabel = nil;
-    [super dealloc];
 }
 
 
